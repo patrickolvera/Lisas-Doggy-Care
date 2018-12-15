@@ -1134,6 +1134,16 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			z-index: 2;
 		}
+		@media screen and (max-width: 480px) {
+
+			#bg:before {
+				background: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"), url("../../images/pictures/dogs-walking-on-leash-small.jpg");
+				background-size: cover;
+				background-position: center, center;
+				background-repeat: no-repeat;
+			}
+
+		}
 
 		#bg:after {
 			-moz-transform: scale(1.125);

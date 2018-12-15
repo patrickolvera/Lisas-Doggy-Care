@@ -1,0 +1,28 @@
+{
+  "name": "Doggy-Day-Care",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sharp": "node sharp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickolvera/Lisas-Doggy-Care.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickolvera/Lisas-Doggy-Care/issues"
+  },
+  "homepage": "https://github.com/patrickolvera/Lisas-Doggy-Care#readme",
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "sharp": "^0.21.1"
+  }
+}
