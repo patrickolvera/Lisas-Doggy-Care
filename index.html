@@ -1,0 +1,338 @@
+<!-------------------------------------------------------------------
+	TODO:
+	- Make Images Responsive
+	- Install a Service Worker
+	- Add dog bone to page tab in browser
+	- Some kind of legal Dislaimer?
+-------------------------------------------------------------------->
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Untitled</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body id="override-styles" class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<i id="logo__bone" class="icon fas fa-bone"></i>
+			</div>
+			<div class="content">
+				<div class="inner">
+
+					<h1>Lisa's Doggy Care</h1>
+					<p>For all your dog boarding, walking, and play date needs!</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#work">Services</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Services -->
+			<article id="work">
+				<h2 class="major">Services</h2>
+				<span class="image main"><img data-src="./images/pictures/dog-with-ball.jpg" alt="dog with a soccer ball" class="lazyload" /></span>
+				<p>
+					I absolutely love dogs! With over 10 years experience caring for them. I've got you covered from head to tail!
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>Service</th>
+								<th>Description</th>
+								<th>Price<sup>*</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Dog Boarding</td>
+								<td>In sitter's home, per night</td>
+								<td>$30</td>
+							</tr>
+							<tr>
+								<td>Drop-In Visits</td>
+								<td>30-minute check-ins</td>
+								<td>$15</td>
+							</tr>
+							<tr>
+								<td>Doggy Day Care</td>
+								<td>In sitter's home, per day</td>
+								<td>$30</td>
+							</tr>
+							<tr>
+								<td>Dog Walking</td>
+								<td>30-minute walks</td>
+								<td>$18</td>
+							</tr>
+							<tr>
+								<td>Night Drop Offs</td>
+								<td>Drop Offs After 7pm</td>
+								<td>add $15</td>
+							</tr>
+						</tbody>
+					</table>
+					<p id="show-holiday-rates" class="modal-link small-text"><a>* Holiday Rates Subject to Change</a></p>
+					<div class="modal" id="holiday-rates">
+						<div class="modal-content">
+							<div>
+								<span class="modal-close"></span>
+								<h3>Holiday Rates</h3>
+							</div>
+							<p>Due to the high demand for pet-sitting services during the holiday season,
+								stays that include any of the following dates will be priced at the Holiday
+								Rate ($35): Dec 20, 2018 - Jan 2, 2019, Jan 18-21, 2019,
+								Feb 15-18, 2019, May 24-27, 2019, Jul 3-7, 2019, Aug 30, 2019 - Sep 2, 2019,
+								Oct 11-15, 2019, Nov 27-30, 2019, Dec 20, 2019 - Jan 1, 2020, Jan 17-20, 2020,
+								and Feb 14-17, 2020.</p>
+						</div>
+					</div>
+				</div>
+				<section>
+					<h2>Services Included</h2>
+					<ul>
+						<li>Oral Medication Administration</li>
+						<li>Senior Dog Care</li>
+						<li>Daily exercise</li>
+						<li>Potty Breaks every 2-4hrs</li>
+						<li>Injected Medical Administration</li>
+						<li>Special Needs Dog Care</li>
+					</ul>
+					<h2>Dog Criteria</h2>
+					<ul>
+						<li>100lbs or less</li>
+						<li>Must be Spayed or Neutered</li>
+						<li>No Females in Heat</li>
+					</ul>
+				</section>
+			</article>
+
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">About</h2>
+				<div class="images-container">
+					<img id="portrait" class="about-image lazyload" data-src="./images/pictures/portrait.jpg" alt="portrait" />
+					<img id="dogs-image" class="about-image lazyload" data-src="./images/pictures/toby-gemma.jpg" alt="dogs" />
+				</div>
+				<h3>A little about me</h3>
+				<p>
+					I love animals and pets! I have had dogs my whole life of many types and breeds. I am wanting my doggy
+					fix and only have 1 dog now currently. He is very laid back and social. I would love to have a playmate and or
+					companion over at my house. Rest asured I will walk and take great care of your pet while you are away and/or need
+					a pet
+					sitter!
+				</p>
+
+				<h3>Why I love dog sitting</h3>
+				<p>
+					All of my life for 40 plus years I have had pets and have babysat as well as walked dogs. When I was growing up
+					neighbors and relatives would ask me to care for their dogs because of my love for animals.
+				</p>
+
+				<h3>About my yard</h3>
+				<p>
+					The backyard is fenced in and I have a dog chain as well for pets as an added precaution.
+				</p>
+
+				<h3>My experience administering medication</h3>
+				<p>
+					My previous dog, who has since passed, had glaucoma. I had to give him eye drops, and oral medication daily.
+				</p>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post" action="https://formspree.io/patrickolvera@gmail.com">
+					<div class="fields">
+						<div class="field">
+							<label for="service">Service</label>
+							<select name="service" id="service" required>
+								<option value="">Select Service</option>
+								<option value="Dog Boarding">Dog Boarding</option>
+								<option value="Drop-In Visits">Drop-In Visits</option>
+								<option value="Doggy Day Care">Doggy Day Care</option>
+								<option value="Dog Walking">Dog Walking</option>
+							</select>
+						</div>
+						<div class="field">
+							<label for="daterange"></label>
+							<input type="text" name="daterange">
+						</div>
+						<div class="field half">
+							<label for="drop-off-time">Drop Off Time</label>
+							<select name="drop-off-time" id="drop-off-time" required>
+								<option value="">Select Time</option>
+								<option value="7:00 AM">7:00 AM</option>
+								<option value="7:30 AM">7:30 AM</option>
+								<option value="8:00 AM">8:00 AM</option>
+								<option value="8:30 AM">8:30 AM</option>
+								<option value="9:00 AM">9:00 AM</option>
+								<option value="9:30 AM">9:30 AM</option>
+								<option value="10:00 AM">10:00 AM</option>
+								<option value="10:30 AM">10:30 AM</option>
+								<option value="11:00 AM">11:00 AM</option>
+								<option value="11:30 AM">11:30 AM</option>
+								<option value="12:00 PM">12:00 PM</option>
+								<option value="12:30 PM">12:30 PM</option>
+								<option value="1:00 PM<">1:00 PM</option>
+								<option value="1:30 PM">1:30 PM</option>
+								<option value="2:00 PM">2:00 PM</option>
+								<option value="2:30 PM">2:30 PM</option>
+								<option value="3:00 PM">3:00 PM</option>
+								<option value="3:30 PM">3:30 PM</option>
+								<option value="4:00 PM">4:00 PM</option>
+								<option value="4:30 PM">4:30 PM</option>
+								<option value="5:00 PM">5:00 PM</option>
+								<option value="5:30 PM">5:30 PM</option>
+								<option value="6:00 PM">6:00 PM</option>
+								<option value="6:30 PM">6:30 PM</option>
+								<option value="7:00 PM">7:00 PM</option>
+							</select>
+						</div>
+						<div class="field half">
+							<label for="pick-up-time">Pick Up Time</label>
+							<select name="pick-up-time" id="pick-up-time" required>
+								<option value="">Select Time</option>
+								<option value="7:00 AM">7:00 AM</option>
+								<option value="7:30 AM">7:30 AM</option>
+								<option value="8:00 AM">8:00 AM</option>
+								<option value="8:30 AM">8:30 AM</option>
+								<option value="9:00 AM">9:00 AM</option>
+								<option value="9:30 AM">9:30 AM</option>
+								<option value="10:00 AM">10:00 AM</option>
+								<option value="10:30 AM">10:30 AM</option>
+								<option value="11:00 AM">11:00 AM</option>
+								<option value="11:30 AM">11:30 AM</option>
+								<option value="12:00 PM">12:00 PM</option>
+								<option value="12:30 PM">12:30 PM</option>
+								<option value="1:00 PM">1:00 PM</option>
+								<option value="1:30 PM">1:30 PM</option>
+								<option value="2:00 PM">2:00 PM</option>
+								<option value="2:30 PM">2:30 PM</option>
+								<option value="3:00 PM">3:00 PM</option>
+								<option value="3:30 PM">3:30 PM</option>
+								<option value="4:00 PM">4:00 PM</option>
+								<option value="4:30 PM">4:30 PM</option>
+								<option value="5:00 PM">5:00 PM</option>
+								<option value="5:30 PM">5:30 PM</option>
+								<option value="6:00 PM">6:00 PM</option>
+								<option value="6:30 PM">6:30 PM</option>
+								<option value="7:00 PM">7:00 PM</option>
+							</select>
+						</div>
+						<div class="field half">
+							<label for="name">Your Name</label>
+							<input type="text" name="name" id="name" required minlength="2">
+						</div>
+						<div class="field half">
+							<label for="phone-number">Phone Number</label>
+							<input type="tel" name="phone-number" id="phone-number" required minlength="10" pattern="^[0-9-+s() ]*$">
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" required>
+						</div>
+					</div>
+					<h3 class="form-heading">A little about your pet</h3>
+
+					<div class="fields pet-number1">
+						<div class="field half">
+							<label for="dog-name">Your dog's Name</label>
+							<input type="text" name="dog-name" id="dog-name" required>
+						</div>
+						<div class="field half">
+							<label for="dog-breed">Breed(s)</label>
+							<input type="text" name="dog-breed" id="dog-breed" required minlength="3">
+						</div>
+						<div class="field half">
+							<label for="dog-weight">Weight (lbs)</label>
+							<input type="number" name="dog-weight" id="dog-weight" required min="3" max="150">
+						</div>
+						<div class="field half">
+							<label for="dog-age">Age (years)</label>
+							<input type="number" name="dog-age" id="dog-age" required max="20">
+						</div>
+						<div class="field half">
+							<input type="radio" id="male" name="sex" value="male" checked>
+							<label for="male">Male</label>
+						</div>
+						<div class="field half">
+							<input type="radio" id="female" name="sex" value="female">
+							<label for="female">Female</label>
+						</div>
+					</div>
+					<input id="add-pet" type="button" value="Add Pet">
+					<input id="remove-pet" type="button" value="Remove Pet">
+					<div class="fields">
+						<div class="field pickup-field">
+							<input type="checkbox" id="pickup-service" name="pickup-service">
+							<label class="pickup-label" for="pickup-service">Pickup and Drop-off From Your Home
+								<span class="price">$20</span>
+								<p class="small-notes small-text"> (your sitter will ask you for further details. unavailable in some
+									areas)</p>
+							</label>
+						</div>
+						<div class="field">
+							<label for="message">Additional details</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+						<div class="field request-picture-field">
+							<input type="checkbox" id="request-pictures" name="request-pictures">
+							<label for="request-pictures">Send Me Pictures of My Pet During Their Stay</label>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Submit Form" class="primary" /></li>
+						<li><input id="form-reset" type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+			</article>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; Lisa's Doggy Care</p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/lazysizes.min.js" async></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+</body>
+
+</html>
