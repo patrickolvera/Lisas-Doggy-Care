@@ -2,3 +2,5 @@
 /node_modules/
 sharp.js
 /big-pictures/
+webpack.config.js
+.babelrc

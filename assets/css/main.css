@@ -1436,16 +1436,6 @@ input, select, textarea {
 					height: calc(2rem + 1px);
 				}
 
-			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			}
-
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
-
 			#header .content .inner {
 				padding: 2.5rem 1rem;
 			}
@@ -1725,6 +1715,11 @@ input, select, textarea {
 				background-size: 14px 14px;
 			}
 
+	}
+
+	.location-sub {
+		padding-top: 0;
+		margin-top: -1.8rem;
 	}
 
 /* About Images */
